@@ -10,10 +10,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'devise', '~> 3.2.4'
-gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'paperclip', '~> 3.0'
 gem 'aws-sdk', '~> 1.20.0'
 gem 'masonry-rails', '~> 0.2.0'
 
