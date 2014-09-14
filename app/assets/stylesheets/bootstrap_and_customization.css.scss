@@ -1,12 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
 
 $navbar-default-bg: 			white;
-$navbar-default-brand-color: 	#c0392b;
-$navbar-height:					45px;	
-$font-family-sans-serif:		'Lato', Helvetica, Arial, sans-serif;
+$navbar-default-brand-color: 	#333333;
+$navbar-height:					60px;	
+$navbar-default-margin:			60px;	
+$font-family-sans-serif:		"Helvetica Neue", Helvetica, Arial, sans-serif;
 $brand-primary: 				#c0392b;
-$body-bg: 						#ecf0f1;			
-$jumbotron-bg: 					white;
+$body-bg: 						#5d5c5c;			
+
+$jumbotron-bg:					#484747;	
+$jumbotron-color:               #fff;
+$pagination-color:				#484747;
+$pagination-active-bg:       	#f0ad4e;
+$pagination-active-border:      #f0ad4e;
 
 .center {
 	text-align: center;
@@ -14,6 +20,32 @@ $jumbotron-bg: 					white;
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+body { 
+	padding-top: 60px; 
+}
+
+#jumboHomePage {
+	background-color: #333333; 
+}
+
+.jumbotron {
+	background-image: url(website/app/assets/images/IMG1.JPG);  
+}
+
+
+#pins {
+	color: black;
+}
+
+#pins div {
+	border: none;
+}
+	
+#pins p {
+	font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
 }
 
 @import 'bootstrap';
